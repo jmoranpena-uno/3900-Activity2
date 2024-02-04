@@ -1,16 +1,58 @@
+/* backgrounds */
+body {
+    background-color: lavender;
+}
+
+section {
+    margin: auto;
+
+    color: black;
+    background-color: lightskyblue;
+    width: 800px;
+
+    border-style: solid;
+    border-color: black;
+}
+
+h2 {
+    align: center;
+}
+
 /* Photos */
 .my_photo {
     height:200px;
+    border-radius: 5px;
+
+    border-style: solid;
+    border-color: black;
 }
 
 .travel {
     height:300px;
+    border-radius: 10px;
+
+    border-style: solid;
+    border-color: black;
+
+    margin: 10px;
 }
 
 .cross_stitch {
     height:300px;
+    border-radius: 10px;
+
+    border-style: solid;
+    border-color: black;
+
+    margin: 10px;
 }
 
 .dnd {
-    height:300px;
+    height:200px;
+    border-radius: 10px;
+
+    border-style: solid;
+    border-color: black;
+
+    margin: 10px;
 }
