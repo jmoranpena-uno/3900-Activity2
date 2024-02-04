@@ -1,5 +1,5 @@
 body {
-    background-color: lavender;
+    background-color: #3c579c;
 }
 
 main {
@@ -21,7 +21,7 @@ a {
 
 .container {
     display: flex;
-    background-color: plum;
+    background-color: #5474e9;
     padding: 2% 2%;
 
     border-radius: 5px;
@@ -76,4 +76,5 @@ a {
 }
 
 .travel_body {
+    background-color: whitesmoke;
 }
