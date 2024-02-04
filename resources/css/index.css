@@ -1,58 +1,79 @@
-/* backgrounds */
 body {
     background-color: lavender;
 }
 
-section {
-    margin: auto;
+main {
+    padding: 0 5%;
+}
 
-    color: black;
-    background-color: lightskyblue;
-    width: 800px;
-
-    border-style: solid;
-    border-color: black;
+h1 {
+    text-align: center;
 }
 
 h2 {
-    align: center;
+    text-align: center;
+    padding: 0 2%;
 }
 
-/* Photos */
-.my_photo {
-    height:200px;
+a {
+    padding: 0 5%;
+}
+
+.container {
+    display: flex;
+    background-color: plum;
+    padding: 2% 2%;
+
     border-radius: 5px;
+    border-style: dashed;
+    border-color: black;
+}
 
+/* Images */
+
+.my_photo {
+    display: block;
+    height:600px;
+    margin: 0 auto 20px;
+    
+
+    border-radius: 5px;
     border-style: solid;
     border-color: black;
 }
 
-.travel {
+.travel_image {
+    margin-right: 10px;
+    display: block;
+
     height:300px;
-    border-radius: 10px;
 
+    border-radius: 10px;
     border-style: solid;
     border-color: black;
-
-    margin: 10px;
 }
 
-.cross_stitch {
+.cross_stitch_image {
+    margin-right: 10px;
+    display: block;
+
     height:300px;
-    border-radius: 10px;
 
+    border-radius: 10px;
     border-style: solid;
     border-color: black;
-
-    margin: 10px;
 }
 
-.dnd {
-    height:200px;
-    border-radius: 10px;
+.dnd_image {
+    margin-right: 10px;
+    display: block;
 
+    height:300px;
+
+    border-radius: 10px;
     border-style: solid;
     border-color: black;
+}
 
-    margin: 10px;
+.travel_body {
 }
